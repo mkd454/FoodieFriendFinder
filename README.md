@@ -18,9 +18,6 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
 
 ### Instructions
-
-2. Your `server.js` file should require the basic npm packages we've used in class: `express` and `path`.
-
 3. Your `htmlRoutes.js` file should include two routes:
 
    * A GET Route to `/survey` which should display the survey page.
