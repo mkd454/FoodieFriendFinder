@@ -1,0 +1,28 @@
+body {
+  background-image: url("./foodbackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  font-family: 'Bree Serif', serif;
+}
+
+.jumbotron {
+  opacity: .85;
+  margin-bottom: 0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
