@@ -18,11 +18,6 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
 
 ### Instructions
-3. Your `htmlRoutes.js` file should include two routes:
-
-   * A GET Route to `/survey` which should display the survey page.
-   * A default, catch-all route that leads to `home.html` which displays the home page.
-
 4. Your `apiRoutes.js` file should contain two routes:
 
    * A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends.
