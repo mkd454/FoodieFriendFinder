@@ -1,8 +1,3 @@
-// A POST routes `/api/friends`. This will be 
-// used to handle incoming survey results. This 
-// route will also be used to handle the 
-// compatibility logic.
-
 // LOAD DATA
 var userData = require("../data/friends");
 
@@ -15,7 +10,14 @@ module.exports = function(app) {
   
   // API POST Requests
   app.post("/api/friends", function(req,res) {
-    console.log(req.body);
-    //userData.push(req.body);
+    res.send("Sending you over data buddy")
+    userData.push(req.body);
+    
+    // Logic
+    var userScores = [];
+    var finalScores = [];
   });
+
+
+
 };
